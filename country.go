@@ -3,6 +3,8 @@ package geo
 // Country is ISO 3166 country code.
 type Country uint8
 
+func (c Country) IsZero() bool { return c == UnknownCountry }
+
 //go:generate go-enum-encoding -type=Country -string
 const (
 	UnknownCountry                         Country = iota // json:""
