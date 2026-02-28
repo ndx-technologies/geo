@@ -1,4 +1,4 @@
-module github.com/ndx-technologies/mm-geo
+module github.com/ndx-technologies/geo
 
 go 1.26
 

@@ -8,8 +8,8 @@ import (
 
 	"github.com/golang/geo/s2"
 
-	geo "github.com/ndx-technologies/mm-geo"
-	"github.com/ndx-technologies/mm-geo/s2x"
+	geo "github.com/ndx-technologies/geo"
+	"github.com/ndx-technologies/geo/s2x"
 )
 
 func edgeFromArea(s float64) float64 {

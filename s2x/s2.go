@@ -6,7 +6,7 @@ import (
 	"github.com/golang/geo/s1"
 	"github.com/golang/geo/s2"
 
-	geo "github.com/ndx-technologies/mm-geo"
+	"github.com/ndx-technologies/geo"
 )
 
 const (
